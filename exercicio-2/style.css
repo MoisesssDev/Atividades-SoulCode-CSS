@@ -1,0 +1,92 @@
+body {
+  background-color: #000000;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #E7E9EA;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12%;
+}
+
+figure {
+  width: 420px;
+  margin: 0;
+}
+
+figure img {
+  width: 400px;
+}
+
+.titulo-principal {
+  margin-top: 0;
+  font-size: 4rem;
+}
+
+.sub-titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+.conteudo {
+  min-width: 437px;
+  height: 520px;
+}
+
+nav {
+  width: 300px;
+}
+
+nav .btn-classico {
+  background-color: #1D9BF0;
+  text-decoration: none;
+  color: #E7E9EA;
+  font-weight: 700;
+  padding: 10px 6rem;
+  border-radius: 20px;
+  transition: all 0.3s;
+  margin: 50px 0 20px 0;
+}
+
+nav .btn-classico:hover {
+  background-color: #0F6DBF;
+}
+
+.btn-outline {
+  border: 1px solid #E7E9EA;
+  color: #0F6DBF;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 6rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: #68b9ff30;
+}
+
+nav small {
+  margin-top: 15px;
+  display: block;
+  font-size: 10px;
+  color: rgb(113, 118, 123);;
+}
+
+nav small a {
+  color: #1D9BF0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+nav small a:hover {
+  text-decoration: underline;
+}
+
+.action {
+  margin: 45px 0;
+}
